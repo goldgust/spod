@@ -1,8 +1,10 @@
 # spod
-scala base for gitpod
 
+A Scala base docker image for gitpod.
 
-## examples
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tailuge/spod)
+
+### Setup a new project
 
 ```
 sbt new scala/scala-seed.g8
@@ -12,3 +14,4 @@ cd (project name)
 sbt run
 sbt test
 ```
+
