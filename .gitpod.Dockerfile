@@ -13,4 +13,5 @@ USER gitpod
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
              && sdk install scala \
-             && sdk sbt"
+             && sdk install sbt"
+             
