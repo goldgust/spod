@@ -7,13 +7,16 @@ A Scala base docker image for gitpod.
 ### Setup a new project
 
 ```
+unset JAVA_TOOL_OPTIONS
+
 sbt new scala/scala-seed.g8
 (choose project name)
 
 cd (project name)
-sbt run
-sbt test
+sbt --error run
+sbt --error test
 ```
+
 
 
 For [s-99](http://aperiodic.net/phil/scala/s-99/)
@@ -21,5 +24,5 @@ For [s-99](http://aperiodic.net/phil/scala/s-99/)
 sbt new scala/scalatest-example.g8
 (choose project name app)
 cd app
-sbt test
+sbt --error test
 ```
