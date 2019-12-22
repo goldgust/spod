@@ -15,3 +15,11 @@ sbt run
 sbt test
 ```
 
+
+For [s-99](http://aperiodic.net/phil/scala/s-99/)
+```
+sbt new scala/scalatest-example.g8
+(choose project name app)
+cd app
+sbt test
+```
